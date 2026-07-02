@@ -15,7 +15,7 @@ Full write-up: [`Report.pdf`](Report.pdf).
 - **`02_eda.ipynb`** — Exploratory analysis informing later modeling decisions (rating 
   distribution, review length, vocabulary size).
 - **`03_multiclass_10.ipynb`** — 10-class rating prediction: fine-tuned DistilBERT (Model A) 
-  and a frozen-DistilBERT + drugName/condition embeddings variant (Model B), plus explainability.
+  and a frozen-DistilBERT + drugName/condition embeddings variant (Model B).
 - **`04_multiclass_3.ipynb`** — 3-class rating prediction: re-bucketed baseline vs. a TextCNN 
   trained from scratch, plus explainability. *(~33MB — too large for GitHub's inline preview; 
   download it to view, or open in Jupyter/Colab)*
