@@ -16,11 +16,11 @@ Full write-up: [`Report.pdf`](Report.pdf).
   distribution, review length, vocabulary size).
 - **`03_multiclass_10.ipynb`** — 10-class rating prediction: fine-tuned DistilBERT (Model A) 
   and a frozen-DistilBERT + drugName/condition embeddings variant (Model B), plus explainability.
-  *(to be added)*
 - **`04_multiclass_3.ipynb`** — 3-class rating prediction: re-bucketed baseline vs. a TextCNN 
-  trained from scratch, plus explainability. *(to be added)*
+  trained from scratch, plus explainability. *(~33MB — too large for GitHub's inline preview; 
+  download it to view, or open in Jupyter/Colab)*
 - **`05_genai_prompting.ipynb`** — Generative AI component: Qwen3-4B summarization + sentiment 
-  labeling, prompt engineering across 4 approaches, final Excel outputs. *(to be added)*
+  labeling, prompt engineering across 4 approaches, final Excel outputs.
 
 ## ⚠️ A note before you try to run these
 
