@@ -6,7 +6,7 @@ Deep learning + generative AI approach to multiclass rating prediction on the
 Master's mentorship assignment for Prof. Kobi Gal.
 **Author:** Matias Guernik (207695511)
 
-Full write-up: [`Report.pdf`](Report.pdf).
+Full write-up: [`report/Report.pdf`](report/Report.pdf).
 
 ## Notebooks
 
@@ -45,13 +45,14 @@ order or patched around a lost runtime. As a result:
 
 **I'd strongly recommend not trying to re-run these end-to-end.** They're included for 
 transparency and to show the actual work, not as a clean, reproducible pipeline. The report 
-(`Report.pdf`) is the reliable source for methodology and results.
+(`report/Report.pdf`) is the reliable source for methodology and results.
 
 ## Outputs
 
-- `output_approach_b.xlsx`, `output_approach_d.xlsx` — the two GenAI output files (drug name, 
-  condition, review, rating, predicted rating, generated summary, sentiment) for the two 
-  best-performing prompting approaches, per the assignment brief.
+- [`outputs/output_approach_b.xlsx`](outputs/output_approach_b.xlsx), 
+  [`outputs/output_approach_d.xlsx`](outputs/output_approach_d.xlsx) — the two GenAI output 
+  files (drug name, condition, review, rating, predicted rating, generated summary, sentiment) 
+  for the two best-performing prompting approaches, per the assignment brief.
 
 ## Data
 
