@@ -17,15 +17,19 @@ Full write-up: [`Report.pdf`](Report.pdf).
 - **`03_multiclass_10.ipynb`** — 10-class rating prediction: fine-tuned DistilBERT (Model A) 
   and a frozen-DistilBERT + drugName/condition embeddings variant (Model B), plus explainability.
 - **`04_multiclass_3.ipynb`** — 3-class rating prediction: re-bucketed baseline vs. a TextCNN 
-  trained from scratch, plus explainability.
+  trained from scratch, plus explainability. Original file with full outputs (including 
+  interactive SHAP plots), too large for GitHub's inline preview — download to view, or open 
+  in Jupyter/Colab.
+- **`04_multiclass_3_lite.ipynb`** — Same notebook, lightweight version that previews normally 
+  on GitHub. Code and markdown are unchanged; SHAP outputs are replaced with links to the 
+  static PNGs in `04_multiclass_3_plots/`.
 - **`05_genai_prompting.ipynb`** — Generative AI component: Qwen3-4B summarization + sentiment 
   labeling, prompt engineering across 4 approaches, final Excel outputs.
 
 ## `04_multiclass_3_plots/`
 
-The 3-class notebook's SHAP explainability plots are provided here as static PNGs, rendered 
-from the original interactive HTML output, since the embedded interactive version made the 
-notebook too large to preview on GitHub.
+The 3-class notebook's SHAP explainability plots, rendered as static PNGs from the original 
+interactive HTML output, referenced by `04_multiclass_3_lite.ipynb`.
 
 ## ⚠️ A note before you try to run these
 
