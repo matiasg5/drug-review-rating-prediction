@@ -15,12 +15,17 @@ Full write-up: [`Report.pdf`](Report.pdf).
 - **`02_eda.ipynb`** — Exploratory analysis informing later modeling decisions (rating 
   distribution, review length, vocabulary size).
 - **`03_multiclass_10.ipynb`** — 10-class rating prediction: fine-tuned DistilBERT (Model A) 
-  and a frozen-DistilBERT + drugName/condition embeddings variant (Model B).
+  and a frozen-DistilBERT + drugName/condition embeddings variant (Model B), plus explainability.
 - **`04_multiclass_3.ipynb`** — 3-class rating prediction: re-bucketed baseline vs. a TextCNN 
-  trained from scratch, plus explainability. *(~33MB — too large for GitHub's inline preview; 
-  download it to view, or open in Jupyter/Colab)*
+  trained from scratch, plus explainability.
 - **`05_genai_prompting.ipynb`** — Generative AI component: Qwen3-4B summarization + sentiment 
   labeling, prompt engineering across 4 approaches, final Excel outputs.
+
+## `04_multiclass_3_plots/`
+
+The 3-class notebook's SHAP explainability plots are provided here as static PNGs, rendered 
+from the original interactive HTML output, since the embedded interactive version made the 
+notebook too large to preview on GitHub.
 
 ## ⚠️ A note before you try to run these
 
